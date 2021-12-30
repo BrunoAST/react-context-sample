@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: olive;
+  color: white;
+  padding: 0 1rem;
+}
+
+.carrinho {
+  position: relative;
+}
+
+.quantidade {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -30%);
+  color: black;
+  border-radius: 50%;
+}

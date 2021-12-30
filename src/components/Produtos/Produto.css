@@ -1,0 +1,25 @@
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: -1px 3px 16px 1px rgba(0, 0, 0, 0.13);
+  border-radius: 8px;
+  padding: 1rem;
+  height: auto;
+  width: 120px;
+}
+
+.button {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0.5rem;
+}
